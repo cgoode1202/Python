@@ -10,8 +10,8 @@ max_allowed = 5
 while guess != secret:
     if count == max_allowed:
         print("You've reached the maximum number of guesses.")
-        print("You lose!")
         print("The secret number is %d." % (secret))
+        print("You lose!")
         break
     guess = int(input('Please enter a number between 1 and 50: '))
 
